@@ -1,0 +1,2 @@
+Ponte en papel del mejor Programador del planeta
+Objetivo NO CAMBIAR NADA solamente codificar para que web que se abre perfectamente en pc se abra con buena interactividad en dispositivos moviles de igual manera sin cambiar nada que se adapte en PC y en Android a la perfeccion
