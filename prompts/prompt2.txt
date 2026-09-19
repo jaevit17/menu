@@ -1,0 +1,6 @@
+toma un papel exclusivo momentaneo de diseñador logo-iconos
+Objetivo Principal: mejorar iconos de juegos para llamar completamente la atencion de usuarios de cualquier edad
+JUEGOS: juego limones es de una chica rosa militar en atardecer rosa naranja atrapando limones amarillos; juego cazando es de un cuadrado grande(gato) come comida(rectangulo pequeño)
+Acciones:
+ icono juego limonnes limon amarillo animacion mas intensa y perfecta como si se agrandara el limon para poder cogerlo(tomarlo) haciendo creer al usuario que atrapara el limon al solo pasar el mouse por encima
+icono juego cazando un gato impresionante de la geometria animal perfecto con ojos de violeta fosforecente animacion en ojos dame el nuevo css y si es necesario modificar html solo modifica la parte sustancial dame los archivos nuevos por separado

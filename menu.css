@@ -293,161 +293,66 @@ h2 em{
 }
 .game-card:hover .interaction-hint{opacity:1;transform:translateY(-2px)}
 
-/* LIMONES — ATARDECER */
+/* LIMONES — FOTO OFICIAL */
 .lemon-scene{
+  position:relative;
+  background:#09040d;
+  isolation:isolate;
+}
+
+.lemon-photo{
+  position:absolute;
+  z-index:0;
+  inset:0;
   background:
-    linear-gradient(180deg,rgba(30,8,38,.12),rgba(2,2,4,.12)),
-    linear-gradient(160deg,#6c155e 0%,#e43e83 39%,#ff7148 69%,#25101c 100%);
+    url("chicaRosa2.png") center 42% / cover no-repeat;
+  transform:scale(1.012);
+  transition:transform .8s var(--ease),filter .8s var(--ease);
 }
 
-.sunset-sky{
-  position:absolute;inset:0;
+.lemon-photo-shade{
+  position:absolute;
+  z-index:1;
+  inset:0;
+  pointer-events:none;
   background:
-    radial-gradient(circle at 68% 43%,rgba(255,244,178,.34),transparent 12%),
-    linear-gradient(180deg,rgba(255,25,185,.20),transparent 44%);
+    linear-gradient(180deg,rgba(4,2,8,.04) 0%,rgba(4,2,8,.02) 45%,rgba(3,3,5,.48) 100%),
+    linear-gradient(90deg,rgba(255,25,185,.08),transparent 45%,rgba(121,44,255,.06));
+  mix-blend-mode:normal;
 }
 
-.sunset-sun{
-  position:absolute;
-  width:120px;height:120px;
-  top:30px;right:68px;
-  border-radius:50%;
-  background:radial-gradient(circle,#fff6c2 0%,#ffc766 25%,#ff7a58 62%,rgba(255,25,185,.12) 100%);
-  box-shadow:0 0 55px rgba(255,159,81,.42),0 0 120px rgba(255,25,185,.16);
-  transition:transform .7s var(--ease),filter .7s var(--ease);
+.game-card--lemons:hover .lemon-photo{
+  transform:scale(1.035);
+  filter:saturate(1.08) contrast(1.03);
 }
 
-.game-card--lemons:hover .sunset-sun{
-  transform:scale(1.06);
-  filter:saturate(1.15);
-}
-
-.sunset-horizon{
-  position:absolute;
-  left:-10%;right:-10%;bottom:0;height:84px;
-  background:
-    linear-gradient(165deg,transparent 0 30%,rgba(9,4,13,.72) 31% 34%,transparent 35%),
-    linear-gradient(175deg,transparent 0 48%,rgba(3,3,5,.90) 49%);
-}
-
-.scene-glow{
-  position:absolute;
-  width:360px;height:160px;
-  left:40%;bottom:-80px;
-  transform:translateX(-50%);
-  background:radial-gradient(ellipse,rgba(255,199,94,.34),transparent 68%);
-  filter:blur(18px);
-}
-
-/* chica geométrica */
-.girl-silhouette{
-  position:absolute;
-  z-index:5;
-  width:122px;height:225px;
-  left:30%;bottom:-12px;
-  transform:translateX(-50%);
-  filter:drop-shadow(0 15px 20px rgba(0,0,0,.34));
-  transition:transform .55s var(--ease);
-}
-
-.game-card--lemons:hover .girl-silhouette{
-  transform:translateX(-50%) translateY(-4px);
-}
-
-.girl-head{
-  position:absolute;
-  width:45px;height:49px;
-  left:42px;top:20px;
-  border-radius:48% 45% 48% 48%;
-  background:linear-gradient(145deg,#ffc6c0,#c95783);
-  box-shadow:inset -8px -7px 12px rgba(72,8,40,.25);
-}
-
-.girl-hair{
+.lemon-scene::after{
+  content:"";
   position:absolute;
   z-index:2;
-  width:64px;height:72px;
-  left:29px;top:8px;
-  border-radius:60% 40% 55% 48%;
-  background:linear-gradient(145deg,#271329,#0a0710);
-  transform:rotate(-10deg);
+  inset:0;
+  pointer-events:none;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  box-shadow:inset 0 0 55px rgba(0,0,0,.20);
 }
 
-.girl-cap{
-  position:absolute;
-  z-index:5;
-  width:66px;height:17px;
-  left:29px;top:14px;
-  border-radius:12px 15px 5px 5px;
-  background:linear-gradient(90deg,#ff3abf,#8d2bbd);
-  box-shadow:0 0 15px rgba(255,25,185,.25);
-  transform:rotate(-4deg);
-}
-
-.girl-cap::after{
-  content:"";
-  position:absolute;
-  width:30px;height:7px;
-  left:18px;top:13px;
-  border-radius:50%;
-  background:#5e1b77;
-}
-
-.girl-body{
-  position:absolute;
-  left:30px;top:68px;
-  width:65px;height:137px;
-  border-radius:20px 20px 7px 7px;
-  background:linear-gradient(135deg,#ff5acb,#7d287f 42%,#211323 100%);
-  clip-path:polygon(20% 0,80% 0,100% 18%,88% 100%,12% 100%,0 18%);
-}
-
-.girl-jacket{
-  position:absolute;
-  z-index:3;
-  left:36px;top:73px;
-  width:53px;height:105px;
-  border-left:2px solid rgba(255,255,255,.20);
-  border-right:2px solid rgba(255,255,255,.12);
-  background:linear-gradient(90deg,transparent 44%,rgba(255,255,255,.13) 45% 48%,transparent 49%);
-}
-
-.girl-jacket::before,.girl-jacket::after{
-  content:"";
-  position:absolute;
-  width:13px;height:13px;
-  border:1px solid rgba(255,234,255,.38);
-  background:#7f2a85;
-  top:20px;
-}
-.girl-jacket::before{left:3px}
-.girl-jacket::after{right:3px}
-
-.girl-arm{
-  position:absolute;
-  z-index:4;
-  width:21px;height:92px;
-  top:78px;
-  border-radius:15px;
-  background:linear-gradient(180deg,#bd4386,#35182e);
-}
-.girl-arm--left{left:18px;transform:rotate(12deg)}
-.girl-arm--right{right:16px;transform:rotate(-28deg)}
-
+/* Limon protagonista — POSICIONADO SOBRE LA MANO DE LA CHICA.
+   Las animaciones lemonFloat/lemonGrab NO se modifican. */
 .lemon-target{
   position:absolute;
   z-index:15;
   width:82px;height:82px;
-  right:18%;
-  top:41%;
-  transform:translate(50%,-50%) rotate(-16deg);
+  left:22%;
+  top:43%;
+  right:auto;
+  transform:translate(-50%,-50%) rotate(-16deg);
   cursor:pointer;
   transition:transform .52s var(--ease),filter .52s var(--ease);
   animation:lemonFloat 3.3s ease-in-out infinite;
 }
 
 .game-card--lemons:hover .lemon-target{
-  transform:translate(50%,-50%) rotate(-5deg) scale(1.70);
+  transform:translate(-50%,-50%) rotate(-5deg) scale(1.70);
   filter:drop-shadow(0 0 10px rgba(255,233,54,.85)) drop-shadow(0 0 34px rgba(255,187,20,.65));
   animation:lemonGrab .75s cubic-bezier(.16,1.4,.35,1) both;
 }
@@ -505,9 +410,10 @@ h2 em{
   position:absolute;
   z-index:10;
   width:105px;height:105px;
-  right:calc(18% - 11px);
-  top:41%;
-  transform:translate(50%,-50%);
+  left:calc(22% - 0px);
+  right:auto;
+  top:43%;
+  transform:translate(-50%,-50%);
   border:1px solid rgba(255,242,90,.55);
   border-radius:50%;
   opacity:.35;

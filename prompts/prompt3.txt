@@ -1,0 +1,5 @@
+ponte en papel del mejor diseñador de interfases de videojuegos del mundo y revisa mi codigo primero despues continua mejorando icono de juego limones limon amarillo que incrementa con pasar mouse me encanto NO CAMBIES LIMON ANIMACION QUE INCREMENTA USA la nueva foto que te pase para uses de fondo del logo del juego limones
+Foto: chicaRosa2.png ya esta incluida en carpeta principal 
+
+objetivo: usar foto chicaRosa2 en el diseño final del logo sin cambiar animacion del limon amarillo ubica al limon animado justo en la mano de la chica
+dame el html y css nuevos por separado
