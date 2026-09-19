@@ -1,0 +1,7 @@
+ponte en papel del mejor diseñador de interfases de videojuegos del mundo y revisa mi codigo primero despues continua mejorando icono de juego cazando croqueta que se mueve al pasar mouse me encanto NO CAMBIES ANIMACION QUE INCREMENTA USA la nueva foto que te pase para uses de fondo del logo del juego cazando
+Foto: leon2.png ya esta incluida en carpeta principal 
+
+objetivo: usar foto leon2 en el diseño final del logo sin cambiar animacion de la croqueta ubica a la croqueta animada justo en el angulo de la mano del gato
+dame el html y css nuevos por separado
+
+EL RESTO NO DEBES TOCAR NADA
