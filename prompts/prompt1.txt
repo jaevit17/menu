@@ -1,0 +1,16 @@
+Ten un papel del diseñador del mundo de interfases visuales de videojuegos y de Programador Diseñador visual
+Puntos a tomar en cuenta:
+Interfaz visual Completa LEON ROSA
+Este menu Contendra todos los JUEGOS a manera de Contenedor Visual Gamer
+Acciones Importantes:
+VISTA Impresionante que llame en absoluto la atencion de cualquier publico
+detalles en violeta rosa fosforecentes, que no exagere pero que imponga con elegancia y dinamismo con animaciones elegantes al desplazarse en web o seleccionar un juego iconos relacionados a la tematica logos de lujo super marketingllamativos a la epoca
+juegos:
+Juego limones 
+Juego cazando
+
+nota: recuerda que ya estan los elementos ancla con los correspondientes link
+dame el nuevo html completo y css por separado
+haz cambios profesionales a gusto para mejorar el llamar la atencion de usuarios
+
+se sutil y perfecto a la tematica
